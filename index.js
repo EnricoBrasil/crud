@@ -1,9 +1,12 @@
-/* tipos de erros 
-    2xx = sucesso
-    4xx = erro no front-end
-    5xx = erro no servidor
-    
-*/
+    /* tipos de erros 
+        2xx = sucesso
+        4xx = erro no front-end
+        5xx = erro no servidor
+        
+
+        user: enrico
+        senha: 5jC9lz1jQWwJEA6D
+    */
 
 import express from 'express';
 import { PrismaClient } from '@prisma/client';
@@ -62,9 +65,3 @@ app.delete('/usuarios/:id', async (req,res) => {
 
 
 app.listen(3000);
-
-
-/*
-user: enrico
-senha: 5jC9lz1jQWwJEA6D
-*/
